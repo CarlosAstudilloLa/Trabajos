@@ -1,3 +1,6 @@
+print("FUNDAMENTOS DE PROGRAMACION DE PYTHON")
+print("Carlos Astudillo")
+print("30/03/2023")
 renta=float(input("El valor de la renta "))
 tax=0
 if renta <10000:

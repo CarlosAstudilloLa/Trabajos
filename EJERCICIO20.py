@@ -1,18 +1,16 @@
 print("CURSO FUNDAMENTOS DE PYTHON")
 print("Carlos Astudillo")
 print("30/3/2023\n")
-calificacion  = float(input("Ingrese su calificacion: "))
-if 0 <= calificacion <= 10:
-    if calificacion >= 0 and calificacion < 4:
-            print(f"Su nota de: {calificacion} \nequivalencia de DEFICIENTE")
-    elif calificacion >= 4 and  calificacion < 7:
-            print(f"Su nota de: {calificacion} \nequivalencia de REGULAR")
-    elif calificacion >= 7 and calificacion < 8.5:
-            print(f"Su nota de: {calificacion} \nequivalencia de BUENO")
-    elif calificacion >= 8.5 and calificacion < 9.5:
-            print(f"Su nota de: {calificacion} \nequivalencia de MUY BUENO")
+cantidad  = float(input("Ingrese una cantidad de días: "))
+if 0 <= cantidad <= 10:
+    if cantidad >= 0 and cantidad < 4:
+            print(f"Cantidad de días: {cantidad} \nequivalencia de HORAS")
+    elif cantidad >= 4 and  cantidad < 7:
+            print(f"Cantidad de días: {cantidad} \nequivalencia de MINUTOS")
+    elif cantidad >= 7 and cantidad < 8:
+            print(f"Cantidad de días: {cantidad} \nequivalencia de SEGUNDOS")
     else:
-        calificacion >= 9.5
-        print(f"Su nota de: {calificacion} \nequivalencia de EXCELENTE ")
+        cantidad >= 9
+        print(f"Cantidad de días: {cantidad} \nequivalencia de EXCELENTE ")
 else:
-       print(f"Su nota de: {calificacion} \nno esta dentro del rango de las CALIFICACIONES")
+       print(f"Cantidad de días: {cantidad} \nno esta dentro del rango de DIAS")

@@ -44,14 +44,14 @@ print(empleados)
 #c) Crea un nuevo diccionario con los empleados del departamento de Ventas.
 empleados = {"Juan":{"departamento":"Ventas", "sueldo": 1500},"Pedro": {"departamento": "Ventas", "sueldo": 1700}}
 #6.Dado el siguiente diccionario:
-materias = {"Pedro":{"matematicas", "computacion", "Biologia","Calculo"}}
+cursos = {"Pedro": ["Matemáticas", "Biología", "Historia"], "María": ["Física", "Química", "Literatura"]}
 #a) Imprime las materias en las que está inscrito Pedro.
-print(materias["Pedro"]["matematicas"]["computacion"]["Biologia"]["Calculo"])
+print(cursos["Pedro"]["matematicas"]["computacion"]["Biologia"]["Calculo"])
 #b) Agrega una materia más a la lista de materias de María: "Programación".
-materias["Programacion"]="Maria"
-print(materias)
+cursos["Programacion"]="Maria"
+print(cursos)
 #c) Crea un nuevo diccionario con los estudiantes que están inscritos en la materia de Biología.
-materias = {"Biologia":{"Pedro", "Ana", "Pedro"}}
+cursos = {"Biologia":{"Pedro", "Maria"}}
 #7. Dado el siguiente diccionario:
 precio = {"manzanas": 10, "naranjas": 5, "peras": 8}
 #a) Imprime el precio de las naranjas.
